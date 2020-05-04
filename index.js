@@ -273,9 +273,18 @@ nationality: Your Nationality Here
 bio: Add 1-2 sentences (or use lorem ipsum) "*/
 
 function addArtist(id,name,years,genre,nationality,bio){
-    let newArt = []
-
-  }
+    let newArt = {
+      id: id,
+      name: name,
+      years: years,
+      genre: genre,
+      nationality: nationality,
+      bio: bio
+    }
+    artists.push(newArt);
+    return artists;
+ }
+console.log(newArt[21,Chris Reisner, 1979-2020, Web Dev, American, Lorem ipsum ]);
 
 
 

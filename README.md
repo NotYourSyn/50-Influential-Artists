@@ -25,10 +25,24 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. How would you describe preprocessing to someone new to CSS?
+
+// Describing it to a new person I would say its a program that allows us to write simple code and it does all the work necessary to make the code written and inputed in the proper places in a way that the computer/browser can read it
+
 2. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+// My favorite concepte in preprocessing in using mixins w variables and escaping when writing .less, I dont personally care for everything being in separate files but I probably just haven't had enough practice with it yet.
+
 3. How would you explain the concept of a variable to someone new to programming?
+
+// A variable is an element that holds data that can vary, its like the frame of a car, we build off that frame to create a functioning vehicle.
+
 4. What is the purpose of using functions in code?
+
+// Functions are small sections of code used to perform specific tasks, theyre the basic building blocks of programming
+
 5. What is a JSON data?
+
+// JSON is JavaScript Object Notation, its a format used  for storing and transporting data, often when data is sent from a server to a browser
 
 You may need to look up an answer but, you are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -40,14 +54,14 @@ Follow these steps to set up your project:
 
 #### Git Set up
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your Team Lead as collaborator on Github.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [x] Create a forked copy of this project.
+- [x] Add your Team Lead as collaborator on Github.
+- [x] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [x] Create a new branch: git checkout -b `<firstName-lastName>`.
 
 #### Preprocessor Set up
 
-* [ ] Verify that you have LESS installed correctly by running `lessc -v` in your terminal, if you don't get a version message back, reach out to your project manager for help.
+* [x] Verify that you have LESS installed correctly by running `lessc -v` in your terminal, if you don't get a version message back, reach out to your project manager for help.
 * [ ] In your project's root folder, run the following command `less-watch-compiler less css index.less`
 * [ ] Verify your compiler is working correctly by changing the `background-color` on the `body` selector to `red` in your `index.less` file.
 * [ ] Once you see the red screen, you can delete that style and you're ready to start on the next task
@@ -73,8 +87,8 @@ _You will know everything is working properly when you see the styles enabled fo
 #### Home Page - Desktop HTML & LESS
 
 * [ ] Take 10 minutes to review the code that has already been provided for you. Take time to see how the home page was built.
-* [ ] Add a viewport meta tag to the head of your index.html page
-* [ ] [Review the provided home desktop design file](design/Desktop.png). You are to build the missing navigation system and header image. You have been provided all content necessary in the [index.html file](index.html)
+* [x] Add a viewport meta tag to the head of your index.html page
+* [X] [Review the provided home desktop design file](design/Desktop.png). You are to build the missing navigation system and header image. You have been provided all content necessary in the [index.html file](index.html)
 * [ ] Navigation Styles: Use the `navigation.less` file for styling.
 * [ ] Main Content Styles: Use the `main.less` file for styling
 * [ ] LESS Mixins: Create and use 2 different mixins to aid your styling. Use the `mixins.less` file for your mixins

@@ -105,6 +105,9 @@ header nav a {
   font-size: 2rem;
   margin-top: 1rem;
 }
+header nav a:hover {
+  color: slategrey;
+}
 .titleDiv {
   background: url(assets/home.png) slategrey;
   display: flex;
@@ -149,4 +152,17 @@ hr {
   width: 350px;
   border-radius: 0.5rem;
   margin: 1%;
+  padding-bottom: 1%;
+}
+.artists-container .artist a {
+  text-decoration: none;
+  font-size: 25px;
+  color: #383737;
+  padding: 0.5%;
+}
+.artists-container .artist a:hover {
+  color: slategrey;
+}
+.artists-container .bio {
+  width: 70%;
 }

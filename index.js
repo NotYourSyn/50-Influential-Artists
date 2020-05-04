@@ -284,7 +284,8 @@ function addArtist(id,name,years,genre,nationality,bio){
     artists.push(newArt);
     return artists;
  }
-console.log(newArt[21,Chris Reisner, 1979-2020, Web Dev, American, Lorem ipsum ]);
+ 
+addArtist(21, Chris, 1979-2020,Web Dev, American, Lorem ipsum);
 
 
 

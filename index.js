@@ -284,8 +284,8 @@ function addArtist(id,name,years,genre,nationality,bio){
     artists.push(newArt);
     return artists;
  }
- 
-addArtist(21, Chris, 1979-2020,Web Dev, American, Lorem ipsum);
+
+addArtist(21, Chris, 1979-2020,WebDev, American, Loremipsum);
 
 
 
